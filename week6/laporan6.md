@@ -59,4 +59,4 @@ Analisis:
 jawab
 1. Slow start itu dia itu ngirim ada lonjakan tertentu setiap waktu dibagian bawah, congestion avoidant dibagian paling atas. Bayangkan koneksi TCP seperti seorang pengemudi yang sedang mencari kecepatan paling pas di jalan raya. Pada fase Slow Start, pengemudi langsung "langsung gas" dengan meningkatkan kecepatan pengiriman data secara cepat untuk melihat kapasitas maksimal jalan. Merasa jalanan mulai padat atau mencapai batas tertentu (ssthresh), TCP berpindah ke fase Congestion Avoidance, di mana pengemudi mulai lebih berhati-hati dengan menambah kecepatan secara pelan dan stabil agar tidak terjadi kemacetan. Pola grafik "gergaji" yang dilihat adalah mekanisme pertahanan TCP: saat pengemudi mendeteksi kemacetan (RTT naik tajam karena antrean penuh), ia akan langsung "ngerem mendadak" atau mengurangi kecepatan secara drastis untuk menghindari tabrakan (packet loss), sebelum akhirnya perlahan mencoba menambah kecepatan kembali
 ![](../assets/week6/15.png)
-2.  No dua tidak dikerjakan sesuai perjanjian
+2.  No dua tidak dikerjakan sesuai perjanjian di kelas
